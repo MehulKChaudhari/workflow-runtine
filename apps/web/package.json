@@ -1,0 +1,7 @@
+{
+  "name": "@workflow/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "React + Vite + React Flow run visualizer. Scaffolded in Phase 8; talks to the API over HTTP only."
+}
