@@ -7,6 +7,7 @@
     ".": "./src/index.ts"
   },
   "dependencies": {
-    "@workflow/shared": "workspace:*"
+    "@workflow/shared": "workspace:*",
+    "zod": "^4.4.3"
   }
 }

@@ -2,4 +2,9 @@
  * @workflow/shared — types and Zod schemas every other package agrees on.
  * Contains no logic and no I/O. Depends on nothing.
  */
-export {};
+export {
+  jsonValueSchema,
+  jsonObjectSchema,
+  type JsonValue,
+  type JsonObject,
+} from "./json";
