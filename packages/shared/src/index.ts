@@ -8,3 +8,11 @@ export {
   type JsonValue,
   type JsonObject,
 } from "./json";
+export {
+  NODE_STATUSES,
+  TERMINAL_NODE_STATUSES,
+  RUN_STATUSES,
+  isTerminalNodeStatus,
+  type NodeStatus,
+  type RunStatus,
+} from "./status";

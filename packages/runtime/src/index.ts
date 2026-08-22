@@ -1,6 +1,13 @@
 /**
- * @workflow/runtime — the execution engine. Drives node state machines,
- * persists every transition to Postgres, dispatches work to workers,
- * and handles failure (retries, recovery).
+ * @workflow/runtime — the execution engine. Owns execution semantics:
+ * which lifecycle transitions are legal and how failure is handled.
  */
-export {};
+export {
+  initialNodeState,
+  transitionNode,
+  type NodeLifecycleState,
+  type NodeEvent,
+  type NodeTransitionResult,
+  type RetryPolicy,
+} from "./nodeLifecycle";
+export { computeRunStatus } from "./runStatus";
