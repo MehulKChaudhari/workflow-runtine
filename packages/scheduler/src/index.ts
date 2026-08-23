@@ -1,5 +1,5 @@
 /**
- * @workflow/scheduler — decides which ready node runs next.
- * Pure decision logic. Knows graphs and node states; never knows LLMs exist.
+ * @workflow/scheduler — decides which pending nodes should become ready
+ * or skipped. Pure: reads a graph and statuses, proposes moves, stops.
  */
-export {};
+export { schedule, type ScheduleDecision } from "./schedule";
